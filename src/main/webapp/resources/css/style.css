@@ -1,0 +1,122 @@
+html,body{height:100%;}
+body {margin: 0px;}
+.inline-block{display:inline-block;}
+.thick{font-weight:bold;}
+.left-space{margin-left:25%;}
+.right-space{margin-right:10px;}
+.big-font{font-size:1.7em;}
+.bottom-space{margin-bottom:1%;}
+.aqua-blue{color:#66CCCC;}
+.bit-big-font{font-size:1.3em;}
+.double-bottom-space{margin-bottom:2%;}
+.center{text-align:center;}
+.flow-right{float:right;}
+.italics {font-style: italic;}
+i {margin-right: 5px;}
+
+/* Login Page Start*/
+
+@media all and (max-width: 600px) {
+  .hideOnSmallScreen { display: none; }
+}
+
+.whiteHeader{
+	background-image: linear-gradient(to bottom,#FFFFFF 0,#FFFFFF 100%) !important;
+}
+
+.ls-loader{
+	width: 50px;
+	height: 50px;
+	background: url('../img/ajax-loader.gif') no-repeat scroll center
+		center #ffffff !important;
+	opacity: 0.5;
+	display: none;
+	position: absolute;
+	/* margin-left: -185px !important; */
+	z-index: 100;
+	margin-top: -7px;
+}
+
+.noDisplay{
+	display: none;
+}
+
+.errorMessage{
+	color:red;
+}
+
+.header-topbar {
+	box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.14), 0 0px 0px 0px rgba(0, 0, 0, 0.12), 0 4px 1px -3px rgba(0, 0, 0, 0.4);
+	background-color:#F5F5F5;
+    height:70px;
+    width:100%;
+}
+.header-right-content {
+     
+     
+     height: inherit;
+	font-size: 20px;
+	/* text-align: right; */
+	color: #000000;
+	position: absolute;
+	margin-left: 175px;
+	margin-top: 15px;
+}
+
+.logo {
+	margin-left: 1%;
+     float: left;
+     width: 150px;
+     height: 50px;
+}
+.logo img {
+    max-width:100%;
+    width:100%;
+    margin-top:5px;
+}
+
+.divider{
+	width: 0;
+	height: 1em;
+	border-left: 3px solid #ccc;
+}
+
+.panel {
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.panel-info {
+ border-color: transparent;
+}
+
+.myButton{
+	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
+	background: #4285f4;
+	color: #fff;
+	border: none;
+	border-radius:3px;
+	padding: 0.6em 0.97em;
+	text-decoration: none !important;
+}
+
+.myButton:hover, .myButton[disabled]{
+	background: #86AFF2;
+	color:#000;
+}
+
+.myAlert{
+	background: #323232;
+	color: #f1f1f1;
+	min-height: 48px;
+	max-width: 600px;
+	padding: 16px 24px 12px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	border-radius: 2px;
+	font-size: 14px;
+	cursor: default;
+}
+
+
+
+
